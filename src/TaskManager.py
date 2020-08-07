@@ -46,7 +46,7 @@ class TaskManager:
 
     def listTasks(self):
         for key, value in self.data.items():
-            print(key)
+            print(str(key), ':', str(value['dsc']))
 
     def writeToHistory(self, task_name, return_code):
         history = open(self.history_file, "a+")
