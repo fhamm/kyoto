@@ -49,7 +49,7 @@ class TaskManager:
             print(str(key), ':', str(value['dsc']))
 
     def writeToHistory(self, task_name, return_code):
-        history = open(self.history_file, "a+")
+        history = open(self.history_file, "a")
         
         if return_code == 0:
             return_string = 'Success (' + str(return_code) + ')'
