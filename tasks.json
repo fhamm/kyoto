@@ -1,0 +1,16 @@
+{
+    "hello-world": {
+        "cwd": "~",
+        "cmd": [
+            "echo Hello World!"
+        ]
+    },
+    "improve-vim": {
+        "cwd": "~",
+        "cmd": [
+            "git clone https://github.com/fhamm/dotfiles",
+            "cp dotfiles/.vimrc .vimrc",
+            "vim"
+        ]
+    }
+}
