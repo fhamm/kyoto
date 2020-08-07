@@ -1,12 +1,14 @@
 {
     "hello-world": {
         "cwd": "~",
+        "dsc": "Print a simple 'Hello World!' message with the echo command",
         "cmd": [
             "echo Hello World!"
         ]
     },
     "improve-vim": {
         "cwd": "~",
+        "dsc": "Install Vim plugins & extensions from fhamm dotfiles",
         "cmd": [
             "git clone https://github.com/fhamm/dotfiles",
             "cp dotfiles/.vimrc .vimrc",
