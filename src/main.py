@@ -8,7 +8,7 @@ from TaskManager import Task, TaskManager
 
 #----------------------------------------------#
 
-parser = argparse.ArgumentParser(prog = "kyoto", description = "kyoto is tool that allows you to create tasks to easily run sequences of commands.")
+parser = argparse.ArgumentParser(prog = "tokyo", description = "tokyo is tool that allows you to create tasks to easily run sequences of commands.")
 
 parser.add_argument('tasks', nargs = '*')
 parser.add_argument('--file', '-f', type = str, help = "specify the tasks file")
@@ -32,7 +32,7 @@ if len(sys.argv) == 1:
 if vars['file']: 
     tasks_file = os.path.expanduser(vars['file'])
 else:
-    tasks_file = os.path.expanduser('~/kyoto/tasks.json')
+    tasks_file = os.path.expanduser('~/tokyo/tasks.json')
 
 if not os.path.exists(tasks_file):
     exit('Invalid tasks file!')

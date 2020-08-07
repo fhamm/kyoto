@@ -28,7 +28,7 @@ class TaskManager:
         self.filename = filename
         self.data = self.getData() 
         self.tasks = self.getTasks()
-        self.history_file = os.path.expanduser('../.KYOTOHIST')
+        self.history_file = os.path.expanduser('../.TOKYOHIST')
     
     def getData(self):
         with open(self.filename) as file:
