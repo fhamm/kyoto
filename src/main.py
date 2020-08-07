@@ -31,7 +31,6 @@ if len(sys.argv) == 1:
 # Check if file exists
 if vars['file']: 
     tasks_file = os.path.expanduser(vars['file'])
-    print (tasks_file)
 else:
     tasks_file = os.path.expanduser('~/kyoto/tasks.json')
 
