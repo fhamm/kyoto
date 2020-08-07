@@ -6,4 +6,4 @@ MAIN_PATH=$INSTALLER_DIRECTORY/src/main.py
 
 chmod +x src/main.py
 
-ln -s $MAIN_PATH /usr/local/bin/kyoto
+ln -s $MAIN_PATH /usr/local/bin/tokyo
