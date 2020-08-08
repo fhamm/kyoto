@@ -12,7 +12,8 @@
         "cmd": [
             "git clone https://github.com/fhamm/dotfiles",
             "cp dotfiles/.vimrc .vimrc",
-            "vim"
+            "vim",
+            "rm -rf dotfiles/"
         ]
     }
 }
